@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', serif;
+  color: #eee;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image:
+    url('../assets/line_vector.png'),
+    linear-gradient(113deg, #292734 1.59%, #000 107.47%);
+
+  background-repeat: no-repeat;
+
+  background-size: 1500px auto, cover;
+  background-position: center, center;
+}
+
+.formWrapper {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.formCard {
+  background: #1b1b35;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.formCard h1 {
+  margin-bottom: 25px;
+}
+
+.toggleBtns {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.toggleBtns button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: #222436;
+  color: #aaa;
+  transition: .3s;
+}
+
+.toggleBtns button.active {
+  background: linear-gradient(135deg, #5e72eb, #8696fe);
+  /* neon gradient */
+  color: #171515;
+}
+
+form {
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form.activeForm {
+  display: flex;
+}
+
+input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #333;
+  background: #1e1f3a;
+  color: #eee;
+  font-size: 1rem;
+  transition: box-shadow .3s;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(142, 147, 248, 0.8);
+  /* neon glow */
+}
+
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #5e72eb, #8696fe);
+  /* neon gradient */
+  color: #171515;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(122, 142, 255, 0.6);
+  /* hover glow */
+}

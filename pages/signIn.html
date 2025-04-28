@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../pages/signIn.css">
+    <link rel="stylesheet" href="../styles.css">
+
 </head>
+
 <body>
-    
+    <header>
+
+        <!-- Navbar -->
+        <nav id="nav-bar">
+            <img class="logo" src="../assets/Logo.png" alt="Logo">
+            <div id="navs" class="navs">
+                <a href="../index.html">Home</a>
+                <a href="#games">Games</a>
+                <a href="">Favourites</a>
+                <a href="">About us</a>
+            </div>
+
+            <!-- Sign in button -->
+            <button id="signInBtn">Sign In</button>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="formWrapper">
+            <div class="formCard">
+                <h1 id="formTitle">Sign In</h1>
+                <div class="toggleBtns">
+                    <button id="btnSignIn" class="active">Sign In</button>
+                    <button id="btnSignUp">Sign Up</button>
+                </div>
+                <form id="formSignIn" class="activeForm">
+                    <input type="email" id="signInEmail" placeholder="Email address" required />
+                    <input type="password" id="signInpass" placeholder="Password" required />
+                    <button type="submit" class="btn">Sign In</button>
+                </form>
+                <form id="formSignUp">
+                    <input type="text" id="signUpUser" placeholder="Username" required />
+                    <input type="email" id="signUpEmail" placeholder="Email address" required />
+                    <input type="password" id="signUppass" placeholder="Create password" required />
+                    <button type="submit" class="btn">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script/auth.js"></script>
+    <script src="../script/profile.js"></script>
 </body>
+
 </html>
