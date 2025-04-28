@@ -1,0 +1,759 @@
+[
+    {
+        "id": 1,
+        "name": "Minecraft",
+        "genre": [
+            "Sandbox",
+            "Survival"
+        ],
+        "image": "assets/games/01.jpg",
+        "rating": 9.5,
+        "description": "A procedurally-generated sandbox where players build, explore, and survive in a voxel world.",
+        "platform": [
+            "PC",
+            "PlayStation",
+            "Xbox",
+            "Switch",
+            "Mobile"
+        ],
+        "release_date": "2011-11-18"
+    },
+    {
+        "id": 2,
+        "name": "Grand Theft Auto V",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "image": "assets/games/02.jpg",
+        "rating": 9.7,
+        "description": "Open-world crime epic following three protagonists planning heists in Los Santos.",
+        "platform": [
+            "PS3",
+            "PS4",
+            "PS5",
+            "Xbox 360",
+            "Xbox One",
+            "Xbox Series X/S",
+            "PC"
+        ],
+        "release_date": "2013-09-17"
+    },
+    {
+        "id": 3,
+        "name": "Wii Sports",
+        "genre": [
+            "Sports"
+        ],
+        "image": "assets/games/03.jpg",
+        "rating": 8.0,
+        "description": "Collection of motion-controlled sports minigames bundled with the Wii console.",
+        "platform": [
+            "Wii"
+        ],
+        "release_date": "2006-11-19"
+    },
+    {
+        "id": 4,
+        "name": "Ark: Survival Evolved",
+        "genre": [
+            "Survival",
+            "Action",
+            "Adventure"
+        ],
+        "image": "assets/games/04.jpg",
+        "rating": 8.2,
+        "description": "Survive among dinosaurs, build bases, and tame creatures in an open-world island.",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One",
+            "Switch"
+        ],
+        "release_date": "2017-08-29"
+    },
+    {
+        "id": 5,
+        "name": "Mario Kart 8 Deluxe",
+        "genre": [
+            "Racing"
+        ],
+        "image": "assets/games/05.jpg",
+        "rating": 9.0,
+        "description": "Fast-paced kart racing with iconic Mario characters and items.",
+        "platform": [
+            "Switch"
+        ],
+        "release_date": "2017-05-29"
+    },
+    {
+        "id": 6,
+        "name": "PUBG: Battlegrounds",
+        "genre": [
+            "Shooter",
+            "Battle Royale"
+        ],
+        "image": "assets/games/06.jpg",
+        "rating": 8.5,
+        "description": "100-player last-man-standing shooter on a shrinking map.",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One",
+            "Mobile"
+        ],
+        "release_date": "2017-12-20"
+    },
+    {
+        "id": 7,
+        "name": "Red Dead Redemption 2",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "image": "assets/games/07.jpg",
+        "rating": 9.8,
+        "description": "Epic Western tale of outlaws in a vast open world.",
+        "platform": [
+            "PS4",
+            "Xbox One",
+            "PC"
+        ],
+        "release_date": "2018-10-26"
+    },
+    {
+        "id": 8,
+        "name": "The Oregon Trail",
+        "genre": [
+            "Educational"
+        ],
+        "image": "assets/games/08.jpg",
+        "rating": 7.0,
+        "description": "Historical simulation of 19th-century pioneer life on the Oregon Trail.",
+        "platform": [
+            "PC",
+            "Apple II",
+            "Various"
+        ],
+        "release_date": "1971-12-03"
+    },
+    {
+        "id": 9,
+        "name": "Terraria",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sandbox"
+        ],
+        "image": "assets/games/09.jpg",
+        "rating": 8.7,
+        "description": "2D sandbox adventure with crafting, building, and combat.",
+        "platform": [
+            "PC",
+            "Console",
+            "Mobile"
+        ],
+        "release_date": "2011-05-16"
+    },
+    {
+        "id": 10,
+        "name": "Super Mario Bros.",
+        "genre": [
+            "Platform"
+        ],
+        "image": "assets/games/10.jpg",
+        "rating": 9.2,
+        "description": "Classic side-scrolling platformer that spawned a franchise.",
+        "platform": [
+            "NES",
+            "Multiple"
+        ],
+        "release_date": "1985-09-13"
+    },
+    {
+        "id": 11,
+        "name": "Human: Fall Flat",
+        "genre": [
+            "Puzzle",
+            "Platform"
+        ],
+        "image": "assets/games/11.jpg",
+        "rating": 7.8,
+        "description": "Physics-based puzzles in open-ended levels.",
+        "platform": [
+            "PC",
+            "Console",
+            "Mobile"
+        ],
+        "release_date": "2016-07-22"
+    },
+    {
+        "id": 12,
+        "name": "Bejeweled",
+        "genre": [
+            "Puzzle"
+        ],
+        "image": "assets/games/12.jpg",
+        "rating": 7.5,
+        "description": "Match-3 puzzle game that popularized the genre.",
+        "platform": [
+            "PC",
+            "Mobile",
+            "Console"
+        ],
+        "release_date": "2000-01-01"
+    },
+    {
+        "id": 13,
+        "name": "Overwatch",
+        "genre": [
+            "First-person shooter",
+            "Hero shooter"
+        ],
+        "image": "assets/games/13.jpg",
+        "rating": 8.9,
+        "description": "Team-based hero shooter with objective-driven modes.",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One",
+            "Switch"
+        ],
+        "release_date": "2016-05-24"
+    },
+    {
+        "id": 14,
+        "name": "The Witcher 3: Wild Hunt",
+        "genre": [
+            "Action",
+            "Aole-playing"
+        ],
+        "image": "assets/games/14.jpg",
+        "rating": 9.9,
+        "description": "Open-world RPG following monster hunter Geralt of Rivia.",
+        "platform": [
+            "PC",
+            "PS4",
+            "Xbox One",
+            "Switch"
+        ],
+        "release_date": "2015-05-19"
+    },
+    {
+        "id": 15,
+        "name": "Pokémon Red/Green/Blue/Yellow",
+        "genre": [
+            "Role-playing"
+        ],
+        "image": "assets/games/15.jpg",
+        "rating": 9.0,
+        "description": "Original Pokémon RPGs for Game Boy.",
+        "platform": [
+            "Game Boy"
+        ],
+        "release_date": "1996-02-27"
+    },
+    {
+        "id": 16,
+        "name": "Animal Crossing: New Horizons",
+        "genre": [
+            "Simulation"
+        ],
+        "image": "assets/games/16.jpg",
+        "rating": 9.3,
+        "description": "Life-sim where you build a community on a deserted island.",
+        "platform": [
+            "Switch"
+        ],
+        "release_date": "2020-03-20"
+    },
+    {
+        "id": 17,
+        "name": "Wii Fit",
+        "genre": [
+            "Sports",
+            "Simulation"
+        ],
+        "image": "assets/games/17.webp",
+        "rating": 7.2,
+        "description": "Fitness minigames using the Wii Balance Board.",
+        "platform": [
+            "Wii"
+        ],
+        "release_date": "2007-12-01"
+    },
+    {
+        "id": 18,
+        "name": "Call of Duty: Black Ops III",
+        "genre": [
+            "Shooter"
+        ],
+        "image": "assets/games/18.jpg",
+        "rating": 8.4,
+        "description": "Futuristic military shooter with campaign and multiplayer.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2015-11-06"
+    },
+    {
+        "id": 19,
+        "name": "Call of Duty: Modern Warfare",
+        "genre": [
+            "Shooter"
+        ],
+        "image": "assets/games/19.jpg",
+        "rating": 8.6,
+        "description": "Reboot of Modern Warfare sub-series with realistic combat.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2019-10-25"
+    },
+    {
+        "id": 20,
+        "name": "Stardew Valley",
+        "genre": [
+            "Simulation",
+            "RPG"
+        ],
+        "image": "assets/games/20.jpg",
+        "rating": 9.1,
+        "description": "Farming sim meets RPG with crafting, relationships, and exploration.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2016-02-26"
+    },
+    {
+        "id": 21,
+        "name": "World of Warcraft",
+        "genre": [
+            "MMORPG"
+        ],
+        "image": "assets/games/21.jpg",
+        "rating": 8.3,
+        "description": "Pioneering fantasy MMORPG set in Azeroth.",
+        "platform": [
+            "PC"
+        ],
+        "release_date": "2004-11-23"
+    },
+    {
+        "id": 22,
+        "name": "Payday 2",
+        "genre": [
+            "Shooter"
+        ],
+        "image": "assets/games/22.webp",
+        "rating": 7.9,
+        "description": "Co-op heist shooter where players plan and execute robberies.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2013-08-13"
+    },
+    {
+        "id": 23,
+        "name": "Sonic the Hedgehog",
+        "genre": [
+            "Platform"
+        ],
+        "image": "assets/games/23.jpg",
+        "rating": 7.4,
+        "description": "Classic fast-paced platformer starring Sega's mascot.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "1991-06-23"
+    },
+    {
+        "id": 24,
+        "name": "The Elder Scrolls V: Skyrim",
+        "genre": [
+            "Action",
+            "Aole-playing"
+        ],
+        "image": "assets/games/24.jpg",
+        "rating": 9.6,
+        "description": "Epic open-world RPG in the province of Skyrim.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2011-11-11"
+    },
+    {
+        "id": 25,
+        "name": "The Sims",
+        "genre": [
+            "Simulation"
+        ],
+        "image": "assets/games/25.jpg",
+        "rating": 8.1,
+        "description": "Life simulation allowing players to create and control people.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2000-02-04"
+    },
+    {
+        "id": 26,
+        "name": "Mario Kart Wii",
+        "genre": [
+            "Racing"
+        ],
+        "image": "assets/games/26.jpg",
+        "rating": 8.3,
+        "description": "Kart racing with motion controls on Wii.",
+        "platform": [
+            "Wii"
+        ],
+        "release_date": "2008-04-10"
+    },
+    {
+        "id": 27,
+        "name": "The Sims 4",
+        "genre": [
+            "Simulation"
+        ],
+        "image": "assets/games/27.jpg",
+        "rating": 7.8,
+        "description": "Latest entry in life sim series with building tools and expansions.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2014-09-02"
+    },
+    {
+        "id": 28,
+        "name": "Super Smash Bros. Ultimate",
+        "genre": [
+            "Fighting"
+        ],
+        "image": "assets/games/28.jpg",
+        "rating": 9.4,
+        "description": "Crossover fighting with every Smash character to date.",
+        "platform": [
+            "Switch"
+        ],
+        "release_date": "2018-12-07"
+    },
+    {
+        "id": 29,
+        "name": "Tetris (Game Boy)",
+        "genre": [
+            "Puzzle"
+        ],
+        "image": "assets/games/29.jpg",
+        "rating": 9.1,
+        "description": "Portable version of the classic tile-matching puzzle game.",
+        "platform": [
+            "Game Boy"
+        ],
+        "release_date": "1989-06-14"
+    },
+    {
+        "id": 30,
+        "name": "The Legend of Zelda: Breath of the Wild",
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "image": "assets/games/30.jpg",
+        "rating": 9.8,
+        "description": "Open-world Zelda with exploration and physics-based puzzles.",
+        "platform": [
+            "Wii U",
+            "Switch"
+        ],
+        "release_date": "2017-03-03"
+    },
+    {
+        "id": 31,
+        "name": "Hogwarts Legacy",
+        "genre": [
+            "Action",
+            "Aole-playing"
+        ],
+        "image": "assets/games/31.jpg",
+        "rating": 8.8,
+        "description": "Open-world RPG set in 1800s wizarding world.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2023-02-10"
+    },
+    {
+        "id": 32,
+        "name": "Wii Sports Resort",
+        "genre": [
+            "Sports"
+        ],
+        "image": "assets/games/32.jpg",
+        "rating": 7.9,
+        "description": "Motion-controlled sports on a tropical island.",
+        "platform": [
+            "Wii"
+        ],
+        "release_date": "2009-06-25"
+    },
+    {
+        "id": 33,
+        "name": "Call of Duty: Black Ops II",
+        "genre": [
+            "Shooter"
+        ],
+        "image": "assets/games/33.webp",
+        "rating": 8.2,
+        "description": "Cold War-era shooter with branching campaign paths.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2012-11-12"
+    },
+    {
+        "id": 34,
+        "name": "New Super Mario Bros.",
+        "genre": [
+            "Platform"
+        ],
+        "image": "assets/games/34.jpg",
+        "rating": 8.5,
+        "description": "Modern side-scroll Mario on DS with new power-ups.",
+        "platform": [
+            "Nintendo DS"
+        ],
+        "release_date": "2006-05-15"
+    },
+    {
+        "id": 35,
+        "name": "Call of Duty: Black Ops",
+        "genre": [
+            "Shooter"
+        ],
+        "image": "assets/games/35.webp",
+        "rating": 8.0,
+        "description": "Cold War shooter that revived the Black Ops sub-series.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2010-11-09"
+    },
+    {
+        "id": 36,
+        "name": "Call of Duty: Modern Warfare 3",
+        "genre": [
+            "Shooter"
+        ],
+        "image": "assets/games/36.jpg",
+        "rating": 7.9,
+        "description": "Continued Modern Warfare storyline with global stakes.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2011-11-08"
+    },
+    {
+        "id": 37,
+        "name": "New Super Mario Bros. Wii",
+        "genre": [
+            "Platform"
+        ],
+        "image": "assets/games/37.jpg",
+        "rating": 8.4,
+        "description": "Co-op side-scroll Mario on Wii with four players.",
+        "platform": [
+            "Wii"
+        ],
+        "release_date": "2009-11-11"
+    },
+    {
+        "id": 38,
+        "name": "Pokémon Gold/Silver/Crystal",
+        "genre": [
+            "Role-playing"
+        ],
+        "image": "assets/games/38.webp",
+        "rating": 9.1,
+        "description": "Second-generation Pokémon RPGs on Game Boy Color.",
+        "platform": [
+            "Game Boy Color"
+        ],
+        "release_date": "1999-11-21"
+    },
+    {
+        "id": 39,
+        "name": "Black Myth: Wukong",
+        "genre": [
+            "Action",
+            "Aole-playing"
+        ],
+        "image": "assets/games/39.jpg",
+        "rating": 8.7,
+        "description": "Mythology-inspired ARPG featuring fast combat and exploration.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2024-08-20"
+    },
+    {
+        "id": 40,
+        "name": "Borderlands 2",
+        "genre": [
+            "Shooter",
+            "Action",
+            "Aole-playing"
+        ],
+        "image": "assets/games/40.webp",
+        "rating": 9.0,
+        "description": "Co-op loot shooter with zany characters and humor.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2012-09-18"
+    },
+    {
+        "id": 41,
+        "name": "Call of Duty: Black Ops Cold War",
+        "genre": [
+            "Shooter"
+        ],
+        "image": "assets/games/41.jpg",
+        "rating": 8.1,
+        "description": "Cold War setting with Zombies and multiplayer modes.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2020-11-13"
+    },
+    {
+        "id": 42,
+        "name": "Call of Duty: Vanguard",
+        "genre": [
+            "Shooter"
+        ],
+        "image": "assets/games/42.webp",
+        "rating": 7.8,
+        "description": "WWII shooter across multiple fronts.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2021-11-05"
+    },
+    {
+        "id": 43,
+        "name": "Cyberpunk 2077",
+        "genre": [
+            "Action",
+            "Aole-playing"
+        ],
+        "image": "assets/games/43.jpg",
+        "rating": 8.2,
+        "description": "Futuristic RPG in Night City with branching narratives.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2020-12-10"
+    },
+    {
+        "id": 44,
+        "name": "Diablo III",
+        "genre": [
+            "Action",
+            "Aole-playing"
+        ],
+        "image": "assets/games/44.jpg",
+        "rating": 8.7,
+        "description": "Loot-driven ARPG with hack-and-slash combat.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2012-05-15"
+    },
+    {
+        "id": 45,
+        "name": "Elden Ring",
+        "genre": [
+            "Action",
+            "Aole-playing"
+        ],
+        "image": "assets/games/45.webp",
+        "rating": 9.8,
+        "description": "Open-world Souls-like from FromSoftware and George R.R. Martin.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2022-02-25"
+    },
+    {
+        "id": 46,
+        "name": "Super Mario Odyssey",
+        "genre": [
+            "Platform"
+        ],
+        "image": "assets/games/46.jpg",
+        "rating": 9.7,
+        "description": "3D platformer with open-ended kingdoms and new hat mechanics.",
+        "platform": [
+            "Switch"
+        ],
+        "release_date": "2017-10-27"
+    },
+    {
+        "id": 47,
+        "name": "Call of Duty: Ghosts",
+        "genre": [
+            "Shooter"
+        ],
+        "image": "assets/games/47.jpg",
+        "rating": 7.6,
+        "description": "Next-gen launch shooter with squad mechanics.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2013-11-05"
+    },
+    {
+        "id": 48,
+        "name": "Duck Hunt",
+        "genre": [
+            "Shooter"
+        ],
+        "image": "assets/games/48.jpg",
+        "rating": 6.5,
+        "description": "Light-gun shooter classic on NES.",
+        "platform": [
+            "NES"
+        ],
+        "release_date": "1984-04-21"
+    },
+    {
+        "id": 49,
+        "name": "Monster Hunter: World",
+        "genre": [
+            "Action",
+            "Aole-playing"
+        ],
+        "image": "assets/games/49.jpg",
+        "rating": 9.0,
+        "description": "Co-op hunting of giant creatures in diverse locales.",
+        "platform": [
+            "Multi-platform"
+        ],
+        "release_date": "2018-01-26"
+    },
+    {
+        "id": 50,
+        "name": "Wii Play",
+        "genre": [
+            "Casual"
+        ],
+        "image": "assets/games/50.jpg",
+        "rating": 6.8,
+        "description": "Collection of simple minigames showcasing Wii Remote.",
+        "platform": [
+            "Wii"
+        ],
+        "release_date": "2006-12-02"
+    }
+]
