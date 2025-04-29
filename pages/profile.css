@@ -1,0 +1,117 @@
+.profile-container {
+    width: 30vw;
+    height: 100vh;
+    max-width: 900px;
+    margin: 6rem auto 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 15vh;
+}
+
+.user-info {
+    background: #1b1b35;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.user-info h1 {
+    font-family: 'Inter', sans-serif;
+    color: #8e93f8;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+}
+
+.user-info p {
+    color: #ccc;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-small {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #5e72eb, #8696fe);
+    color: #171515;
+    cursor: pointer;
+    transition: transform .2s, box-shadow .2s;
+}
+
+.btn-small:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(122, 142, 255, 0.6);
+}
+
+.fav-section h2 {
+    font-family: 'Inter', sans-serif;
+    color: #6767d1;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    animation: colorShift 3s infinite alternate;
+}
+
+.game-grid {
+    display: grid;
+    /* exactly 3 equal columns */
+    grid-template-columns: repeat(3, 1fr);
+    /* :contentReference[oaicite:0]{index=0} */
+    /* exactly 2 rows that size to content height */
+    grid-template-rows: repeat(2, auto);
+    /* :contentReference[oaicite:1]{index=1} */
+    gap: 1.5rem;
+    /* if more than 6 items, you can scroll: */
+    overflow-y: auto;
+    max-height: calc(2 * (120px + 2rem));
+    /* approximate two rows height */
+}
+
+
+.game-card {
+    background: #292734;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(142, 147, 248, 0.2);
+    transition: transform .3s, box-shadow .3s;
+}
+
+.game-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(142, 147, 248, 0.4);
+}
+
+.game-card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.game-card h3 {
+    font-size: 1rem;
+    margin: .5rem;
+    color: #fff;
+}
+
+.remove-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(255, 0, 0, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 24px;
+    text-align: center;
+    transition: background .2s;
+}
+
+.remove-btn:hover {
+    background: rgba(255, 0, 0, 1);
+}

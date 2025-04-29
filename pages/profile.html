@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Profile Game Verse</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="profile.css" />
+</head>
+
+<body>
+    <header>
+
+        <!-- Navbar -->
+        <nav id="nav-bar">
+            <img class="logo" src="../assets/Logo.png" alt="Logo">
+            <div id="navs" class="navs">
+                <a href="../index.html#hero">Home</a>
+                <a href="../index.html#games">Games</a>
+                <a href="">Favourites</a>
+                <a href="">About us</a>
+            </div>
+
+            <!-- Sign in button -->
+            <button id="signInBtn">Sign In</button>
+
+        </nav>
+    </header>
+
+    <main class="profile-container">
+        <section class="user-info">
+            <h1 id="welcome">Welcome, User</h1>
+            <p id="email"></p>
+            <button id="btnBack" class="btn-small">← Back</button>
+        </section>
+
+        <section class="fav-section">
+            <h2>Your Favorites</h2>
+            <div id="favGrid" class="game-grid"></div>
+        </section>
+    </main>
+
+    <script src="../script/auth.js"></script>
+    <script src="../script/userProfile.js"></script>
+    <script src="../script/profile.js"></script>
+</body>
+
+</html>

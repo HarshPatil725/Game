@@ -361,6 +361,7 @@ main {
 .pagination {
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 5vh;
 }
 
 .pagination button {
@@ -387,22 +388,87 @@ main {
 
 /* Profile button in navbar */
 .btn-profile {
-    padding: 10px 32px;  
+    padding: 10px 32px;
     margin-right: 100px;
-    border: none;  
-    border-radius: 30px;  
-    background: linear-gradient(135deg, #5e72eb, #8696fe);           
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #5e72eb, #8696fe);
     color: rgb(23, 21, 21);
-    font-weight: 500;  
+    font-weight: 500;
     font-size: 1.05rem;
-    cursor: pointer;  
+    cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 10px rgba(94, 114, 235, 0.4);
-    white-space: nowrap;                   
-  }
-  .btn-profile:hover {
+    white-space: nowrap;
+}
+
+.btn-profile:hover {
     background: linear-gradient(135deg, #7b8dff 0%, #aab4ff 100%);
     box-shadow: 0 6px 15px rgba(122, 142, 255, 0.6);
-    transform: translateY(-3px);              
-  }
-  
+    transform: translateY(-3px);
+}
+
+
+/* ABOUT US */
+.about-section {
+    width: 80%;
+    max-width: 1000px;
+    margin: 6rem auto;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    color: #8e93f8;
+    margin-bottom: 0.5rem;
+    animation: colorShift 3s infinite alternate;
+}
+
+.about-lead {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+}
+
+/* Team grid: responsive CSS Grid */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+/* :contentReference[oaicite:2]{index=2} */
+
+/* Individual team card */
+.team-card {
+    background: #1b1b35;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(142, 147, 248, 0.2);
+    transition: transform .3s, box-shadow .3s;
+}
+
+.team-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(142, 147, 248, 0.4);
+}
+
+.team-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.team-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+    color: #fff;
+}
+
+.team-card .roll {
+    font-size: 0.9rem;
+    color: #aaa;
+}

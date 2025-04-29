@@ -17,8 +17,8 @@
             <div id="navs" class="navs">
                 <a href="#hero">Home</a>
                 <a href="#games">Games</a>
-                <a href="">Favourites</a>
-                <a href="">About us</a>
+                <a href="pages/profile.html#fav-section">Favourites</a>
+                <a href="#aboutUs">About us</a>
             </div>
 
             <!-- Sign in button -->
@@ -28,7 +28,7 @@
     </header>
     <main>
         <!-- Hero Page -->
-        <div id="hero" class="hero">
+        <section id="hero" class="hero">
 
             <div class="heroContent">
                 <h1>Your Gateway to a Better Sports Experience</h1>
@@ -38,7 +38,7 @@
 
             <img class="heroImg" src="assets/illu.png" alt="minecraft_image">
 
-        </div>
+        </section>
 
         <!-- Floating balls -->
         <div class="floating-container">
@@ -47,7 +47,7 @@
             <div class="orb orb3"></div>
         </div>
 
-        <div class="games" id="games">
+        <section class="games" id="games">
             <div class="gameContent">
                 <h1>Genre you want </h1>
                 <div class="underGameContent">
@@ -76,13 +76,42 @@
 
             <!-- Grid & Pagination -->
             <div id="gameGrid" class="game-grid"></div>
-            
+
             <div class="pagination">
                 <button id="prevBtn" disabled>Prev</button>
                 <span id="pageNumber">Page 1</span>
                 <button id="nextBtn">Next</button>
             </div>
-        </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="aboutUs" class="about-section">
+            <h2>About Us</h2>
+            <p class="about-lead">
+                We are a team of four passionate creators who built Game Verse to bring you the ultimate sports-gaming
+                experience.
+            </p>
+            <div class="team-grid">
+                <!-- Team Member Card -->
+                <div class="team-card">
+                    <h3>Harsh Patil</h3>
+                    <p class="roll">BT24CSD033</p>
+                </div>
+                <div class="team-card">
+                    <h3>Sutikshan Upman</h3>
+                    <p class="roll">BT24CSD043</p>
+                </div>
+                <div class="team-card">
+                    <h3>Deepak Paliwal</h3>
+                    <p class="roll">BT24CSD040</p>
+                </div>
+                <div class="team-card">
+                    <h3>Kushaan Goel</h3>
+                    <p class="roll">BT24CSD035</p>
+                </div>
+            </div>
+        </section>
+
 
         <script src="script/grid.js"></script>
         <script src="script/profile.js"></script>

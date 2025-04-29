@@ -1,0 +1,54 @@
+.detail-container {
+    width: 80%;
+    margin: 15vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-detail-card {
+    background: #292734;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(142, 147, 248, 0.2);
+    width: 100%;
+    max-width: 600px;
+    color: #fff;
+}
+
+.detail-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.game-detail-card h1 {
+    font-family: 'Inter', sans-serif;
+    color: #8e93f8;
+    margin-bottom: .5rem;
+}
+
+.game-detail-card .description {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+.btn {
+    /* reuse your neon button style */
+    padding: 10px 24px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #5e72eb, #8696fe);
+    color: #171515;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(94, 114, 235, 0.4);
+    transition: .3s;
+    margin-bottom: 3vh;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(122, 142, 255, 0.6);
+}
